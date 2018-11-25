@@ -10,4 +10,4 @@ Objectives: share the thermoostat implementation to enough detail so that other 
 2. Open thermoostat/home-page/index.html
 3. Navigate from there! 
 
-# Create a new PR for open source changes
+! Create a new PR for open source changes
