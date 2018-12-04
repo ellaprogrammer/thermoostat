@@ -2600,7 +2600,7 @@ input, select, textarea {
 					opacity: 0.8;
 				}
 
-				.tiles article > .image:after {
+				/*.tiles article > .image:after {
 					pointer-events: none;
 					-moz-transition: opacity 0.5s ease;
 					-webkit-transition: opacity 0.5s ease;
@@ -2619,7 +2619,7 @@ input, select, textarea {
 					background-size: 100% 100%;
 					opacity: 0.25;
 					z-index: 2;
-				}
+				}*/
 
 			.tiles article > a {
 				display: -moz-flex;

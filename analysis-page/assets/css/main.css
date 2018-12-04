@@ -7,6 +7,46 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.fulltext p,
+.less {
+	display: none;
+	color: black;
+}
+
+.fulltext:target p,
+.fulltext:target .less {
+	display: block;
+}
+
+.fulltext:target .more {
+	display: none;
+}
+
+.more {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 8px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 300;
+		height: 2.75em;
+		line-height: 2.75em;
+		min-width: 9.25em;
+		padding: 0 1.5em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+		color: black;
+		box-shadow: inset 0 0 0 1px black;
+	}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -99,11 +139,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #72cdf4;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ffe552 15%, #72cdf4 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ffe552 15%, #72cdf4 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ffe552 15%, #72cdf4 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #ffe552 15%, #72cdf4 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +160,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #1295d8;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -201,7 +241,7 @@ input, select, textarea {
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: black;
 			text-decoration: none;
 		}
 
@@ -303,19 +343,27 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #ffffff;
+		color: black;
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: black;
 	}
 
 	strong, b {
-		color: #ffffff;
+		color: black;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: black;
+	}
+
+	p {
+		color: black;
+	}
+
+	dt, dd {
+		color: black;
 	}
 
 	blockquote {
@@ -1924,8 +1972,8 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff !important;
+		box-shadow: inset 0 0 0 1px black;
+		color: black !important;
 	}
 
 		input[type="submit"]:hover,
@@ -1958,7 +2006,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #8cc9f0;
-			color: #ffffff !important;
+			color: black !important;
 			box-shadow: none;
 		}
 
@@ -1983,7 +2031,7 @@ input, select, textarea {
 			input[type="button"].primary.icon:before,
 			button.primary.icon:before,
 			.button.primary.icon:before {
-				color: #ffffff !important;
+				color: black !important;
 			}
 
 /* Form */
@@ -2135,7 +2183,7 @@ input, select, textarea {
 	}
 
 	label {
-		color: #ffffff;
+		color: black;
 	}
 
 	input[type="text"],
@@ -2328,7 +2376,7 @@ input, select, textarea {
 
 	.icon.alt {
 		border-color: rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: black;
 	}
 
 		.icon.alt:hover {
@@ -2467,7 +2515,7 @@ input, select, textarea {
 	}
 
 	dl dt {
-		color: #ffffff;
+		color: black;
 	}
 
 /* Actions */
@@ -2756,7 +2804,7 @@ input, select, textarea {
 		}
 
 	table th {
-		color: #ffffff;
+		color: black;
 	}
 
 	table thead {
@@ -2863,19 +2911,19 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #ff8f28;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #feb2e0;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #ffd200;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #00a3ad;
 			}
 
 			.statistics li.style5 {
@@ -3065,7 +3113,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 3em 5em 0em 5em ;
+			padding: 3em 5em 1.5em 5em ;
 		}
 
 			#header.alt h1 {
@@ -3101,6 +3149,7 @@ input, select, textarea {
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					width: 21%;
 				}
 
 		@media screen and (max-width: 1280px) {
