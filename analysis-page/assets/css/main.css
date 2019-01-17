@@ -2909,6 +2909,9 @@ input, select, textarea {
 			color: #ffffff;
 			text-align: center;
 		}
+			#left-align {
+				text-align: left;
+			}
 
 			.statistics li.style1 {
 				background-color: #ff8f28;
