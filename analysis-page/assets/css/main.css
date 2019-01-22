@@ -2914,19 +2914,19 @@ input, select, textarea {
 			}
 
 			.statistics li.style1 {
-				background-color: #ff8f28;
+				background-color: #005581;
 			}
 
 			.statistics li.style2 {
-				background-color: #feb2e0;
+				background-color: #1295d8;
 			}
 
 			.statistics li.style3 {
-				background-color: #ffd200;
+				background-color: #ffb511;
 			}
 
 			.statistics li.style4 {
-				background-color: #00a3ad;
+				background-color: #ffd200;
 			}
 
 			.statistics li.style5 {
@@ -3133,6 +3133,7 @@ input, select, textarea {
 				-ms-transition-delay: 0.5s;
 				transition-delay: 0.5s;
 				opacity: 1;
+				margin: 0;
 			}
 
 			#header.alt .logo {

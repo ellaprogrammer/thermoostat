@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -21,15 +22,15 @@
 					<header id="header" class="alt" style="padding-bottom: 3%;">
 						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
 						<h1>Analysis and Triage</h1>
-						<p>Info about AAT</p>
+						<p>In this module, we describe methods and tools for triaging <br>incoming thermal comfort feedback to find comfort and HVAC issues.</p>
 
-						<div class="fulltext" id="more-1">
+						<!-- <div class="fulltext" id="more-1">
 							<a class="more" href="#more-1">Learn more<span class="visually-hidden"></span></a>
 							
 							<p>More info</p>
 
 							<a class="less" href="#less-1">Show less<span class="visually-hidden"></span></a>
-						</div>
+						</div> -->
 					</header>
 
 				<!-- Nav -->
@@ -38,6 +39,7 @@
 							<!-- <li><a href="#intro" class="active">Introduction</a></li> -->
 							<li><a href="#first">Questions to Consider</a></li>
 							<li><a href="#second">Triage in Real Time</a></li>
+							<li><a href="#secondhalf">Understanding Users</a></li>
 							<li><a href="#cta">Participatory Thermal Sensing</a></li>
 							<li><a href="#third">Short-term Analysis</a></li>
 						</ul>
@@ -71,20 +73,27 @@
 								</header>
 								<ul class="features">
 									<li>
-										<span class="icon major style1 fa-code"></span>
+										<span class="icon major style1">
+											<i class="far fa-comments"></i>
+										</span>
 										<h3>Level of Control</h3>
 										<p>How much control do campus building occupants have over thermal conditions (control of thermostats, windows, etc.)?</p>
 										<p>How much remote visibility do you have into room temperatures on campus?</p>
 										<p>Are you able to make changes to a building automation system if necessary?</p>
 									</li>
 									<li>
-										<span class="icon major style3 fa-copy"></span>
+										<span class="icon major style1"> 
+											<i class="fas fa-running"></i>
+											<!-- <img src="images/actionlogo.png" alt="" />  -->
+										</span>
 										<h3>Taking Action</h3>
 										<p>When you can control the BAS, when will you make changes based on PTS feedback? When will you not?</p>
 										<p>Will you ever submit a formal work request based on PTS feedback? Under what conditions?</p>
 									</li>
 									<li>
-										<span class="icon major style5 fa-diamond"></span>
+										<span class="icon major style5">
+											<i class="fas fa-gamepad"></i>
+										</span>
 										<h3>Thresholds for Action</h3>
 										<p>What conditions do you consider the HVAC system to be functioning?</p>
 										<p>What is the acceptable indoor temperature range on your campus? </p>
@@ -96,9 +105,9 @@
 							<section id="second" class="main special">
 								<header class="major">
 									<h2>Triage in real-time</h2>
-									<p>There are different actions we take based on the type of feedback that gets submitted. See the different levels of triage below, from immediate action to no action necessary. </p>
+									<p>There are different actions we take based on the type of feedback that gets submitted. <br>See the different levels of triage below.</p>
 								</header>
-								<ul class="statistics" style="margin-bottom: 3px;">
+								<!-- <ul class="statistics" style="margin-bottom: 3px;">
 									<li class="style1">
 										<span class="icon fa-code-fork"></span>
 										<strong>Immediate Action</strong> 
@@ -106,7 +115,7 @@
 									<li class="style2">
 										<span class="icon fa-folder-open-o"></span>
 										<strong>Under Observation</strong> No Action
-										<!-- <p>No action</p> -->
+										
 										</li>
 									</li>
 									<li class="style3">
@@ -118,8 +127,8 @@
 										<strong>Need More Information </strong> 
 									</li>
 									
-								</ul>
-								<ul class="statistics" style="margin-bottom: 3px;">
+								</ul> -->
+								<!-- <ul class="statistics" style="margin-bottom: 3px;">
 									<li class="style1">
 										~ 2% of the time we change a set point, air flow or release an override in the BAS 
 									</li>
@@ -139,8 +148,8 @@
 										<br>~ 13% of the time we need a room number or more specific location
 									</li>
 									
-								</ul>
-								<ul class="statistics" >
+								</ul> -->
+								<!-- <ul class="statistics" >
 									<li class="style1" id="left-align">
 										- Language in comment warrants immediate response
 										<br>- HVAC equipment not functioning as it should based on the building automation system
@@ -166,10 +175,15 @@
 										<br>- Feedback from one person in a classroom, within one class period
 									</li>
 									
-								</ul>
+								</ul> -->
+							</section>
 
-								<p class="content">To better understand our users and how to triage incoming data, we’ve created a matrix that describes the different kinds of TherMOOstat users on the UC Davis campus. The matrix is informed by research we’ve done at UC Davis and the experience we’ve had with TherMOOstat the past several years. <br>
-								Users are described by their expectations and how much they move around the campus. Based on where a user lies in the matrix, we have suggested actions for each area. A diagram like this helps us decide what actions we will take on incoming feedback, and also helps those new to the PTS understand how to react and respond to comfort feedback. 
+							<section id="secondhalf" class="main special">
+								<header class="major">
+									<h2>Understanding Users</h2>
+								</header>
+							<p class="content">To better understand our users and how to triage incoming data, we’ve created a matrix that describes the different kinds of TherMOOstat users on the UC Davis campus. The matrix is informed by research we’ve done at UC Davis and the experience we’ve had with TherMOOstat the past several years. <br><br>
+								Users are described by their expectations and how much they move around the campus. Based on where a user lies in the matrix, we have suggested actions for each area. A diagram like this helps us decide what actions we will take on incoming feedback, and also helps those new to the PTS understand how to react and respond to comfort feedback.  
 								</p>
 								<footer class="major">
 									<ul class="actions special">
