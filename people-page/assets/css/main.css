@@ -3328,7 +3328,7 @@ input, select, textarea {
 						background-color: #ffffff;
 						box-shadow: none;
 					}
-
+/*FIXME NAV BAR ALT */
 		#nav.alt {
 			position: fixed;
 			top: 0;
