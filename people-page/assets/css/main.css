@@ -21,9 +21,9 @@ a img
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		background-color: #ffffff;
 		color: #636363;
-		position: fixed;
-		width: 64em;
-		max-width: calc(100% - 4em);
+		/*position: fixed;*/
+		/*width: 64em;*/
+		min-width: calc(100% - 14em);
 		top: 0;
 		padding: 0.5em 1em;
 		background-color: rgba(247, 247, 247, 0.95);
@@ -31,10 +31,11 @@ a img
 		border-top-right-radius: 0em;
 		cursor: default;
 		text-align: center;
-		z-index: 10000;
+		/*z-index: 10000;*/
 		font-size: 0.9em;
-		min-width: 1194px;
-		margin-left: 8.6%;
+		/*min-width: 1194px;*/
+		/*margin-left: calc(100% - 97.5%);*/
+		margin-bottom: .7%;
 	}
 
 		#nav input, #nav select, #nav textarea {
@@ -111,7 +112,7 @@ a img
 						box-shadow: none;
 					}
 
-		@media screen and (max-width: 736px) {
+		/*@media screen and (max-width: 736px) {
 
 			#nav {
 				display: none;
@@ -121,7 +122,7 @@ a img
 					padding-top: 0;
 				}
 
-		}
+		}*/
 
 .fulltext p,
 .less {
