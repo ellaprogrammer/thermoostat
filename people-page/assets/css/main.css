@@ -3233,7 +3233,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 3em 5em 1.5em 5em ;
+			padding: 2em 5em 1.5em 5em;
 		}
 
 			#header.alt h1 {
@@ -3611,7 +3611,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 5em 7em 3% 7em;
 			border-top: solid 1px #dddddd;
 		}
 
