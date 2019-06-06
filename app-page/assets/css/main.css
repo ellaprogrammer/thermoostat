@@ -3241,14 +3241,6 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
 				opacity: 1;
 				margin: 0;
 			}
