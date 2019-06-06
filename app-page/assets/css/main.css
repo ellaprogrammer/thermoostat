@@ -6,6 +6,123 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+a img
+{
+  border: 0 none;
+}
+.image-link
+{
+  text-decoration: none;
+}
+#nav {
+		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		background-color: #ffffff;
+		color: #636363;
+		/*position: fixed;*/
+		/*width: 64em;*/
+		min-width: calc(100% - 14em);
+		top: 0;
+		padding: 0.5em 1em;
+		background-color: rgba(247, 247, 247, 0.95);
+		border-top-left-radius: 0em;
+		border-top-right-radius: 0em;
+		cursor: default;
+		text-align: center;
+		/*z-index: 10000;*/
+		font-size: 0.9em;
+		/*min-width: 1194px;*/
+		/*margin-left: calc(100% - 97.5%);*/
+		margin-bottom: .7%;
+	}
+
+		#nav input, #nav select, #nav textarea {
+			color: #636363;
+		}
+
+		#nav a:hover {
+			color: #636363;
+		}
+
+		#nav strong, #nav b {
+			color: #636363;
+		}
+
+		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
+			color: #636363;
+		}
+
+		#nav blockquote {
+			border-left-color: #dddddd;
+		}
+
+		#nav code {
+			background: rgba(222, 222, 222, 0.25);
+			border-color: #dddddd;
+		}
+
+		#nav hr {
+			border-bottom-color: #dddddd;
+		}
+
+		#nav + #main {
+			padding-top: 4.25em;
+		}
+
+		#nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+			#nav ul li {
+				-moz-transition: margin 0.2s ease;
+				-webkit-transition: margin 0.2s ease;
+				-ms-transition: margin 0.2s ease;
+				transition: margin 0.2s ease;
+				display: inline-block;
+				margin: 0 0.175em;
+				padding: 0;
+				vertical-align: middle;
+			}
+
+				#nav ul li a {
+					-moz-transition: font-size 0.2s ease;
+					-webkit-transition: font-size 0.2s ease;
+					-ms-transition: font-size 0.2s ease;
+					transition: font-size 0.2s ease;
+					display: inline-block;
+					height: 2.25em;
+					line-height: 2.25em;
+					padding: 0 1.25em;
+					border: 0;
+					border-radius: 8px;
+					box-shadow: inset 0 0 0 1px transparent;
+					font-size: 0.9em;
+				}
+
+					#nav ul li a:hover {
+						background-color: rgba(222, 222, 222, 0.25);
+					}
+
+					#nav ul li a.active {
+						background-color: #ffffff;
+						box-shadow: none;
+					}
+
+		/*@media screen and (max-width: 736px) {
+
+			#nav {
+				display: none;
+			}
+
+				#nav + #main {
+					padding-top: 0;
+				}
+
+		}*/
 
 .fulltext p,
 .less {
@@ -3116,7 +3233,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 3em 5em 1.5em 5em ;
+			padding: 2em 5em 1.5em 5em;
 		}
 
 			#header.alt h1 {
@@ -3124,14 +3241,6 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
 				opacity: 1;
 				margin: 0;
 			}
@@ -3242,126 +3351,7 @@ input, select, textarea {
 
 /* Nav */
 
-	#nav {
-		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
-		color: #636363;
-		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 4em);
-		padding: 1em;
-		background-color: #f7f7f7;
-		border-top-left-radius: 0.25em;
-		border-top-right-radius: 0.25em;
-		cursor: default;
-		text-align: center;
-	}
 
-		#nav input, #nav select, #nav textarea {
-			color: #636363;
-		}
-
-		#nav a:hover {
-			color: #636363;
-		}
-
-		#nav strong, #nav b {
-			color: #636363;
-		}
-
-		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #636363;
-		}
-
-		#nav blockquote {
-			border-left-color: #dddddd;
-		}
-
-		#nav code {
-			background: rgba(222, 222, 222, 0.25);
-			border-color: #dddddd;
-		}
-
-		#nav hr {
-			border-bottom-color: #dddddd;
-		}
-
-		#nav + #main {
-			padding-top: 4.25em;
-		}
-
-		#nav ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-
-			#nav ul li {
-				-moz-transition: margin 0.2s ease;
-				-webkit-transition: margin 0.2s ease;
-				-ms-transition: margin 0.2s ease;
-				transition: margin 0.2s ease;
-				display: inline-block;
-				margin: 0 0.35em;
-				padding: 0;
-				vertical-align: middle;
-			}
-
-				#nav ul li a {
-					-moz-transition: font-size 0.2s ease;
-					-webkit-transition: font-size 0.2s ease;
-					-ms-transition: font-size 0.2s ease;
-					transition: font-size 0.2s ease;
-					display: inline-block;
-					height: 2.25em;
-					line-height: 2.25em;
-					padding: 0 1.25em;
-					border: 0;
-					border-radius: 8px;
-					box-shadow: inset 0 0 0 1px transparent;
-				}
-
-					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
-					}
-
-					#nav ul li a.active {
-						background-color: #ffffff;
-						box-shadow: none;
-					}
-
-		#nav.alt {
-			position: fixed;
-			top: 0;
-			padding: 0.5em 1em;
-			background-color: rgba(247, 247, 247, 0.95);
-			border-top-left-radius: 0;
-			border-top-right-radius: 0;
-			z-index: 10000;
-		}
-
-			#nav.alt ul li {
-				margin: 0 0.175em;
-			}
-
-				#nav.alt ul li a {
-					font-size: 0.9em;
-				}
-
-		@media screen and (max-width: 736px) {
-
-			#nav {
-				display: none;
-			}
-
-				#nav + #main {
-					padding-top: 0;
-				}
-
-		}
 
 /* Main */
 
@@ -3613,7 +3603,7 @@ input, select, textarea {
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 5em 7em 3% 7em;
 			border-top: solid 1px #dddddd;
 		}
 

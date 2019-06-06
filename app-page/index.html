@@ -6,49 +6,45 @@
 -->
 <html>
 	<head>
-		<title>Applications & Measurement</title>
+		<title>Applications</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<div style="display: flex; justify-content: space-between;">
+		<a href="../index.html" style="color: transparent;"><img border="0" src="images/thermoostat.png" style="max-width: 100px; max-height: 53px; padding-left: 28px;"/></a>
+	</div>	
+
 	<body class="is-preload">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					<header id="header" class="alt" style="padding-bottom: 3%;">
-						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
-						<h1>Applications & Measurement</h1>
-						<p>The crowd-sourced data accumulated over time in a PTS program can be useful in many ways for campus energy management. This module will describe possible applications of PTS data beyond short-term analysis and triage. Your campus might choose to focus on one or more applications now, and perhaps find other uses for the data later on down the road.</p>
-
-						<!-- <div class="fulltext" id="more-1">
-							<a class="more" href="#more-1">Learn more<span class="visually-hidden"></span></a>
-							
-							<p>More info</p>
-
-							<a class="less" href="#less-1">Show less<span class="visually-hidden"></span></a>
-						</div> -->
-					</header>
-
-				<!-- Nav -->
+	<div style="margin-top: -54px; " id="wrapper">
+				<div id="main" style="position: -webkit-sticky; /* Safari */position: sticky; top: 0;">
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#intro" class="main">Introduction</a></li>
 							<li><a href="#first" class="main">Improve Comfort & Efficiency</a></li>
 							<li><a href="#cta" class="main">Prioritize Energy Retrofits</a></li>
 							<li><a href="#second" class="main">Energy Efficiency Initiatives</a></li>
 							<li><a href="#secondhalf" class="main">Automate Feedback Loop</a></li>
 						</ul>
 					</nav>
-
-				<!-- Main -->
+				</div>
 					<div id="main">
 
+						<header id="header" class="alt" style="padding-bottom: 3%; margin-bottom: 1%; padding-top: 3%;">
+						<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+						<h1>Applications</h1>
+						<p>The crowd-sourced data accumulated over time in a PTS program can be useful in many ways for campus energy management. This module will describe possible applications of PTS data beyond short-term analysis and triage. Your campus might choose to focus on one or more applications now, and perhaps find other uses for the data later on down the road.</p>
+
+					</header>
+				</div>
+				
+				<div id="main">
+
 						<!-- Introduction -->
-							<section id="intro" class="main">
+							<section id="intro" class="main" style="padding-bottom: 3%; margin-bottom: 1%;">
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
@@ -63,15 +59,16 @@
 									<span class="image"><img src="images/pic01.jpg" alt="" /></span> -->
 								</div>
 							</section>
-
+					</div>
+					<div id="main">
 						<!-- First Section -->
-							<section id="first" class="main">
+							<section id="first" class="main" style="padding-bottom: 3%; margin-bottom: 1%;">
 								<header class="major">
 									<h2>Improve Occupant Comfort and Efficiency</h2>
 								</header>
 								<p>A PTS system can yield data to both improve comfort and find opportunities to increase energy efficiency. PTS data provides a dataset previously unrealized for a university campus, and can be used to gain insight from the campus community on how they feel about their spaces. 
 
-									Analyzing long-term trends in PTS data reveals opportunities to improve campus comfort and efficiency--sometimes simultaneously! One initiative that has come out of PTS data at UCD is the “Campus Comfort Band”, a new set of temperature guidelines. PTS data from classroom buildings has consistently shown that occupants are too cold on very hot days. Specifically, occupants report the room is too cold when the outside temperature gets over 95°F and the room is below 75°F. 
+									Analyzing long-term trends in PTS data reveals opportunities to improve campus comfort and efficiency--sometimes simultaneously! One initiative that has come out of PTS data at UCD is the “Campus Comfort Band,” a new set of temperature guidelines. PTS data from classroom buildings has consistently shown that occupants are too cold on very hot days. Specifically, occupants report the room is too cold when the outside temperature gets over 95°F and the room is below 75°F. 
 									</p>
 									<img src="images/comfortGraph.png" style="max-width: 97%"/>
 									<p>This raised a red flag for energy waste from overcooling indoor spaces! In response, the Campus Comfort Band was developed for classrooms, with a range of indoor setpoints fluctuating throughout the day based on the outdoor temperature. Classrooms setpoints are now set between 71°F - 76°F when it's warmer outside, and between 69°F - 74°F when it's cooler outside.</p>
@@ -80,8 +77,10 @@
 									<img src="images/warmer.png" style="max-width: 47%"/>
 								
 							</section>
+						</div>
+						<div id="main">
 							<!-- Get Started -->
-							<section id="cta" class="main">
+							<section id="cta" class="main" style="padding-bottom: 3%; margin-bottom: 1%;">
 								<header class="major">
 									<h2>Prioritize Energy Retrofits</h2>
 									</header>
@@ -91,11 +90,12 @@
 									Wellman Hall is a classroom building on campus that receives an average of 400 votes every year, up to 30% more comfort feedback than is received by other classroom buildings on campus. From January 2015 - August 2016, there were 24 work orders initiated for Wellman through Facilities Management, with solutions totaling over $9,000. We used TherMOOstat feedback and performed an <a href="https://drive.google.com/file/d/1EuwDFKFrbDJCt1HaJKyVAh_dkvydFq7f/view?usp=sharing">investigation into 32 classrooms</a> in Wellman. We attempted to address issues by adjusting the Siemens (BAS) programming for the HVAC system, but this was not effective due to poor location of sensors controlling the HVAC system. We used our research and TherMOOstat feedback to create <a href="https://drive.google.com/file/d/16xatr0lfip-ATTsiS5aKI2-8gMeX84g8/view?usp=sharing">a report in favor of an energy retrofit.</a> In the Summer of 2017 a project was undertaken to reinstall the sensors that were throwing off the HVAC programming. We are now using TherMOOstat feedback to continuously finetune the HVAC programming. 
 									</p>
 							</section>
-
+						</div>
+						<div id="main">
 						<!-- Second Section -->
-							<section id="second" class="main">
+							<section id="second" class="main" style="padding-bottom: 3%; margin-bottom: 1%;">
 								<header class="major">
-									<h2>Evaluate Energy Efficiency Initiatives</h2>
+									<h2>Energy Efficiency Initiatives</h2>
 									</header>
 									<p>PTS data enables more proactive energy efficiency projects because it provides a communication channel with building occupants to ensure projects do not adversely affect them. At UC Davis, we use TherMOOstat to check in before, during, and/or after an energy efficiency initiative. <br><br>
 									<u>UCD Examples of Using PTS to Evaluate Efficiency Projects</u><br>
@@ -109,9 +109,11 @@
 
 								<p>A second example is a project called Small Workplace Air and Remote Monitoring (SWARM), which aims to increase smaller buildings' visibility and be a part of energy efficiency initiatives on campus. The project installs WiFi enabled thermostats in these smaller buildings, enabling Facilities to remotely see the temperature and program the thermostats. After the thermostats are installed, TherMOOstat is advertised to occupants via flyers in the buildings. Facilities uses TherMOOstat to continuously monitor SWARM buildings and to keep in touch with the occupants after the installation of the new thermostats. </p>
 							</section>
-							<section id="secondhalf" class="main">
+						</div>
+						<div id="main">
+							<section id="secondhalf" class="main" style="padding-bottom: 3%; margin-bottom: 1%;">
 								<header class="major">
-									<h2>Automate the Feedback Loop</h2>
+									<h2>Automate Feedback Loop</h2>
 								</header>
 							<p>There are also opportunities to streamline parts of the PTS data triage process and give occupants even more control by integrating PTS with the BAS. Algorithms can be programmed to automatically adjust setpoints based on incoming comfort data. This is a huge undertaking. UC Merced researchers experimented with this with their program, Thermovote. We’ve also experimented with it in our Energy Conservation Office building. These experiments have so far been limited to single buildings because of the complications of working with different types of building automation systems and equipment. Another example of automating the feedback loop is by enabling control of large fans. UCD has done this and recommends the following process.<br></p>
 							<p>
@@ -132,44 +134,16 @@
 
 								</p>
 								
-							</section>	
+							</section>
+							</div>	
 						
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
-							<h2>UC Davis Thermoostat</h2>
-							<p>Information on the background of Thermoostat and ECO.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<!-- <section>
-							<h2>Etiam feugiat</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-							</dl>
-							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
-							</ul>
-						</section> -->
-						<section>
-							<ul>
-							<span class="image">
-										<img src="images/uclogo.png" alt="" style="max-width: 44%; padding-bottom: 2%; border-radius: 0;"/>
-								</span>
-							</ul>
-						</section>
+						
+						<img src="images/new_uclogo.png" alt="" style="max-width: 30%;padding-bottom: 2%;border-radius: 0;display: block;margin:auto;"/>
+								
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 

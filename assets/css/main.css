@@ -151,7 +151,8 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			/* color: #f2849e !important; 
+			hover color change */
 		}
 
 	strong, b {
@@ -2828,6 +2829,15 @@ input, select, textarea {
 			#header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
+			}
+
+			.a:hover {
+				color: #585858;
+				
+			}
+
+			#header .logo .title:hover {
+				color: #585858;
 			}
 
 			#header .logo .symbol {
